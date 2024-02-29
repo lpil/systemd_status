@@ -25,6 +25,7 @@ pub fn unit_property_list_command(unit: String) -> #(String, List(String)) {
     "show",
     unit,
     "--no-pager",
+    "--all",
     "-p",
     "Id,Type,LoadState,ActiveState,SubState,Result,Description,StateChangeTimestamp,ActiveEnterTimestamp,ActiveExitTimestamp,InactiveEnterTimestamp,InactiveExitTimestamp",
   ])
