@@ -1,5 +1,5 @@
 name = "systemd_status"
-version = "1.0.0"
+version = "1.0.1"
 description = "Inspect the status of running systemd units"
 licences = ["Apache-2.0"]
 repository = { type = "github", user = "lpil", repo = "systemd_status" }
