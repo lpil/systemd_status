@@ -1,7 +1,7 @@
+import gleam/option.{None, Some}
+import gleam/string
 import gleeunit
 import gleeunit/should
-import gleam/string
-import gleam/option.{None, Some}
 import systemd_status.{
   Active, Inactive, Loaded, OneshotService, Service, SimpleService,
 }
